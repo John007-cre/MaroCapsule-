@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>MarocCapsule - Shop</title>
+    <meta name="description" content="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo.png" />
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <!-- Bootstap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body class="template-index belle home">
+    <div class="pageWrapper">
+        <!--Search Form Drawer-->
+        <div class="search">
+            <div class="search__form">
+                <form class="search-bar__form" action="#">
+                    <button class="go-btn search__button" type="submit"><i class="icon anm anm-search-l"></i></button>
+                    <input class="search__input" type="search" name="q" value="" placeholder="Search entire store..."
+                        aria-label="Search" autocomplete="off">
+                </form>
+                <button type="button" class="search-trigger close-btn"><i class="anm anm-times-l"></i></button>
+            </div>
+        </div>
+        <!--End Search Form Drawer-->
+        <!--Header-->
+
+        <div class="header-wrap classicHeader animated d-flex">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <!--Desktop Logo-->
+                    <div class="logo col-md-2 col-lg-2 d-none d-lg-block">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" style="width: 100px;height: 70px;" />
+                        </a>
+                    </div>
+                    <!--End Desktop Logo-->
+                    <div class="col-2 col-sm-3 col-md-3 col-lg-8">
+                        <div class="d-block d-lg-none">
+                            <button type="button"
+                                class="btn--link site-header__menu js-mobile-nav-toggle mobile-nav--open">
+                                <i class="icon anm anm-times-l"></i>
+                                <i class="anm anm-bars-r"></i>
+                            </button>
+                        </div>
+                        <!--Desktop Menu-->
+
+                        <nav class="grid__item" id="AccessibleNav">
+                            <!-- for mobile -->
+                            <ul id="siteNav" class="site-nav medium center hidearrow">
+                                <li class="lvl1 parent megamenu"><a href="#">Home <i
+                                            class="anm anm-angle-down-l"></i></a>
+                                </li>
+                                <li class="lvl1 parent megamenu"><a href="#">Shop <i
+                                            class="anm anm-angle-down-l"></i></a>
+                                </li>
+                                <li class="lvl1 parent megamenu"><a href="#">About<i
+                                            class="anm anm-angle-down-l"></i></a>
+                                </li>
+                                <li class="lvl1 parent dropdown"><a href="#">Services <i
+                                            class="anm anm-angle-down-l"></i></a>
+                                </li>
+                                <li class="lvl1 parent dropdown"><a href="#">Contact <i
+                                            class="anm anm-angle-down-l"></i></a>
+                                </li>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!--End Desktop Menu-->
+                    </div>
+                    <!--Mobile Logo-->
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-2 d-block d-lg-none mobile-logo">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo.png" style="width: 90px;height: 70px;margin-left: 50px;" />
+                            </a>
+                        </div>
+                    </div>
+                    <!--Mobile Logo-->
+                    <div class="col-4 col-sm-3 col-md-3 col-lg-2">
+                        <div class="site-cart">
+                            <a href="#" class="site-header__cart" title="Cart">
+                                <i class="icon anm anm-bag-l"></i>
+                                <span id="CartCount" class="site-header__cart-count"
+                                    data-cart-render="item_count">2</span>
+                            </a>
+                            <!--Minicart Popup-->
+                            <div id="header-cart" class="block block-cart">
+                                <ul class="mini-products-list">
+                                    <li class="item">
+                                        <a class="product-image" href="#">
+                                            <img src="assets/images/1.png" title="" />
+                                        </a>
+                                        <div class="product-details">
+                                            <a href="#" class="remove"><i class="anm anm-times-l"
+                                                    aria-hidden="true"></i></a>
+                                            <a href="#" class="edit-i remove"><i class="anm anm-edit"
+                                                    aria-hidden="true"></i></a>
+                                            <a class="pName" href="cart.html">Test</a>
+                                            <div class="variant-cart">Lorem ipsum</div>
+                                            <div class="wrapQtyBtn">
+                                                <div class="qtyField">
+                                                    <span class="label">Qty:</span>
+                                                    <a class="qtyBtn minus" href="javascript:void(0);"><i
+                                                            class="fa anm anm-minus-r" aria-hidden="true"></i></a>
+                                                    <input type="text" id="Quantity" name="quantity" value="1"
+                                                        class="product-form__input qty">
+                                                    <a class="qtyBtn plus" href="javascript:void(0);"><i
+                                                            class="fa anm anm-plus-r" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="priceRow">
+                                                <div class="product-price">
+                                                    <span class="money">59.00 DH</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="total">
+                                    <div class="total-in">
+                                        <span class="label">Cart Subtotal:</span><span class="product-price"><span
+                                                class="money">59.00 DH</span></span>
+                                    </div>
+                                    <div class="buttonSet text-center">
+                                        <a href="cart.html" class="btn btn-secondary btn--small">View Cart</a>
+                                        <a href="checkout.html" class="btn btn-secondary btn--small">Checkout</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Minicart Popup-->
+                        </div>
+                        <div class="site-header__search">
+                            <button type="button" class="search-trigger"><i class="icon anm anm-search-l"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Header-->
+        <!--Mobile Menu-->
+        <div class="mobile-nav-wrapper" role="navigation">
+            <div class="closemobileMenu"><i class="icon anm anm-times-l pull-right"></i> Close Menu</div>
+            <ul id="MobileNav" class="mobile-nav">
+                <li class="lvl1 parent megamenu"><a href="index.html">Home <i class="anm anm-plus-l"></i></a>
+                </li>
+                <li class="lvl1 parent megamenu"><a href="#">Shop <i class="anm anm-plus-l"></i></a>
+
+                </li>
+                <li class="lvl1 parent megamenu"><a href="product-layout-1.html">Services <i
+                            class="anm anm-plus-l"></i></a>
+                </li>
+                <li class="lvl1 parent megamenu"><a href="about-us.html">About <i class="anm anm-plus-l"></i></a>
+                </li>
+                <li class="lvl1 parent megamenu"><a href="blog-left-sidebar.html">Contact <i
+                            class="anm anm-plus-l"></i></a>
+                </li>
+                </li>
+            </ul>
+        </div>
+        <!--End Mobile Menu-->
+
+        <!--Body Content-->
+        <div id="page-content">
+            <!--Home slider-->
+            <div class="slideshow slideshow-wrapper pb-section sliderFull">
+                <div class="home-slideshow">
+                    <div class="slide slideshow--medium">
+                        <div class="blur-up lazyload bg-size">
+                            <img class="blur-up lazyload bg-img"
+                                data-src="assets/images/slideshow-banners/home7-banner1.jpg"
+                                src="assets/images/artisanat-marocain.jpg" alt="Modern Sophistication"
+                                title="Modern Sophistication" />
+                            <div class="slideshow__text-wrap slideshow__overlay classic middle">
+                                <div class="slideshow__text-content classic left">
+                                    <div class="container">
+                                        <div class="wrap-caption left">
+                                            <h2 class="h1 mega-title slideshow__title">Découvre nos produits
+                                            </h2>
+                                            <span class="mega-subtitle slideshow__subtitle">Tous les produits sont fabriqués au Maroc
+                                                    </span>
+                                            <span class="btn">Shop now</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--End Home slider-->
+
+            <!--Shop -->
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="section-header text-center">
+                                <h2 class="h2">Achète les meilleurs produits</h2>
+                                <p>Plusieurs choix à votre disposition</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-products grid-products-hover-btn">
+                        <div class="productSlider-style1">
+                            <div class="col-12 item grid-view-item style2">
+                                <div class="grid-view_image">
+                                    <!-- start product image -->
+                                    <a href="product-layout-2.html" class="grid-view-item__link">
+                                        <!-- image -->
+                                        <img class="grid-view-item__image primary blur-up lazyload"
+                                            data-src="assets/images/product-images/b2.jpg"
+                                            src="assets/images/product-images/b2.jpg" alt="image" title="product">
+                                        <!-- End image -->
+                                        <!-- Hover image -->
+                                        <img class="grid-view-item__image hover blur-up lazyload"
+                                            data-src="assets/images/product-images/home7-product1-1.jpg"
+                                            src="assets/images/product-images/b2.jpg" alt="image" title="product">
+                                        <!-- End hover image -->
+                                    </a>
+                                    <!-- end product image -->
+                                    <!--start product details -->
+                                    <div class="product-details hoverDetails text-center mobile">
+                                        <!-- product name -->
+                                        <div class="product-name">
+                                            <a href="product-layout-2.html">Porte-bougie</a>
+                                        </div>
+                                        <!-- End product name -->
+                                        <!-- product price -->
+                                        <div class="product-price">
+                                            <span class="old-price">100.00DH</span>
+                                            <span class="price">89.00DH</span>
+                                        </div>
+                                        <!-- End product price -->
+
+                                        <!-- product button -->
+                                        <div class="button-set">
+                                            <a href="javascript:void(0)" title="Quick View"
+                                                class="quick-view-popup quick-view" data-toggle="modal"
+                                                data-target="#content_quickview">
+                                                <i class="icon anm anm-search-plus-r"></i>
+                                            </a>
+                                            <!-- Start product button -->
+                                            <form class="variants add" action="#"
+                                                onclick="window.location.href='cart.html'" method="post">
+                                                <button class="btn cartIcon btn-addto-cart" type="button"
+                                                    tabindex="0"><i class="icon anm anm-bag-l"></i></button>
+                                            </form>
+                                            <div class="wishlist-btn">
+                                                <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                    <i class="icon anm anm-heart-l"></i>
+                                                </a>
+                                            </div>
+                                            <div class="compare-btn">
+                                                <a class="compare add-to-compare" href="compare.html"
+                                                    title="Add to Compare">
+                                                    <i class="icon anm anm-random-r"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end product button -->
+                                    </div>
+                                    <!-- End product details -->
+                                </div>
+                            </div>
+                            <div class="col-12 item grid-view-item style2">
+                                <div class="grid-view_image">
+                                    <!-- start product image -->
+                                    <a href="product-layout-2.html" class="grid-view-item__link">
+                                        <!-- image -->
+                                        <img class="grid-view-item__image primary blur-up lazyload"
+                                            data-src="assets/images/product-images/c1.jpg"
+                                            src="assets/images/product-images/c1" alt="image" title="product">
+                                        <!-- End image -->
+                                        <!-- Hover image -->
+                                        <img class="grid-view-item__image hover blur-up lazyload"
+                                            data-src="assets/images/product-images/home7-product2-1.jpg"
+                                            src="assets/images/product-images/c1.jpg" alt="image" title="product">
+                                        <!-- End hover image -->
+                                    </a>
+                                    <!-- end product image -->
+                                    <!--start product details -->
+                                    <div class="product-details hoverDetails text-center mobile">
+                                        <!-- product name -->
+                                        <div class="product-name">
+                                            <a href="product-layout-2.html">Sac en paille</a>
+                                        </div>
+                                        <!-- End product name -->
+                                        <!-- product price -->
+                                        <div class="product-price">
+                                            <span class="price">250.00 DH</span>
+                                        </div>
+                                        <!-- product button -->
+                                        <div class="button-set">
+                                            <a href="javascript:void(0)" title="Quick View"
+                                                class="quick-view-popup quick-view" data-toggle="modal"
+                                                data-target="#content_quickview">
+                                                <i class="icon anm anm-search-plus-r"></i>
+                                            </a>
+                                            <!-- Start product button -->
+                                            <form class="variants add" action="#"
+                                                onclick="window.location.href='cart.html'" method="post">
+                                                <button class="btn cartIcon btn-addto-cart" type="button"
+                                                    tabindex="0"><i class="icon anm anm-bag-l"></i></button>
+                                            </form>
+                                            <div class="wishlist-btn">
+                                                <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                    <i class="icon anm anm-heart-l"></i>
+                                                </a>
+                                            </div>
+                                            <div class="compare-btn">
+                                                <a class="compare add-to-compare" href="compare.html"
+                                                    title="Add to Compare">
+                                                    <i class="icon anm anm-random-r"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end product button -->
+                                    </div>
+                                    <!-- End product details -->
+                                </div>
+                            </div>
+                            <div class="col-12 item grid-view-item style2">
+                                <div class="grid-view_image">
+                                    <!-- start product image -->
+                                    <a href="product-layout-2.html" class="grid-view-item__link">
+                                        <!-- image -->
+                                        <img class="grid-view-item__image primary blur-up lazyload"
+                                            data-src="assets/images/product-images/g6.jpg"
+                                            src="assets/images/product-images/g6.jpg" alt="image" title="product">
+                                        <!-- End image -->
+                                        <!-- Hover image -->
+                                        <img class="grid-view-item__image hover blur-up lazyload"
+                                            data-src="assets/images/product-images/home7-product3-1.jpg"
+                                            src="assets/images/product-images/g6.jpg" alt="image" title="product">
+                                        <!-- End hover image -->
+                                    </a>
+                                    <!-- end product image -->
+                                    <!--start product details -->
+                                    <div class="product-details hoverDetails text-center mobile">
+                                        <!-- product name -->
+                                        <div class="product-name">
+                                            <a href="product-layout-2.html">Plat en poterie</a>
+                                        </div>
+                                        <!-- End product name -->
+                                        <!-- product price -->
+                                        <div class="product-price">
+                                            <span class="price">471.00Dh</span>
+                                        </div>
+                                        <!-- product button -->
+                                        <div class="button-set">
+                                            <a href="javascript:void(0)" title="Quick View"
+                                                class="quick-view-popup quick-view" data-toggle="modal"
+                                                data-target="#content_quickview">
+                                                <i class="icon anm anm-search-plus-r"></i>
+                                            </a>
+                                            <!-- Start product button -->
+                                            <form class="variants add" action="#"
+                                                onclick="window.location.href='cart.html'" method="post">
+                                                <button class="btn cartIcon btn-addto-cart" type="button"
+                                                    tabindex="0"><i class="icon anm anm-bag-l"></i></button>
+                                            </form>
+                                            <div class="wishlist-btn">
+                                                <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                    <i class="icon anm anm-heart-l"></i>
+                                                </a>
+                                            </div>
+                                            <div class="compare-btn">
+                                                <a class="compare add-to-compare" href="compare.html"
+                                                    title="Add to Compare">
+                                                    <i class="icon anm anm-random-r"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end product button -->
+                                    </div>
+                                    <!-- End product details -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Shop -->
+
+            <!---->
+            <div class="section custom-content-style1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="section-header text-center">
+                                <h2 class="h2">Produits cosmétiques</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-4">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="custom-text text-center">
+                                <h4 class="h3">
+                                    <a href="#">Huiles essentielles de meilleure qualité</a>
+                                </h4>
+                                <div class="rte-setting">
+                                    <p>jusqu'à 60% de réduction </p>
+                                </div>
+                                <a class="btn" href="#">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="custom-text text-center">
+                                <img class="blur-up lazyload" data-src="assets/images/1.png" src="assets/images/1.png"
+                                    alt="" title="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="custom-text text-center">
+                                <img class="blur-up lazyload" data-src="assets/images/3.jpg" src="assets/images/3.jpg"
+                                    alt="" title="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+                            <div class="custom-text text-center">
+                                <img class="blur-up lazyload" data-src="assets/images/4.jpg" src="assets/images/4.jpg"
+                                    alt="" title="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="custom-text text-center">
+                                <h4 class="h3">
+                                    <a href="#">Vous rêvez d'une peau douce et un éclat incroyable!</a>
+                                </h4>
+                                <div class="rte-setting">
+                                    <p>Utilisez cette huile prodigieuse d'argan qui se distingue par une efficacité remarquable ...</p>
+                                </div>
+                                <a class="btn" href="#">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End -->
+
+        </div>
+
+        <footer class="section footer-section">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-3 mb-5">
+          <h3>Quick Link</h3>
+          <ul class="list-unstyled link">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Terms &amp; Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Rooms</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-5">
+          <h3>Support</h3>
+          <ul class="list-unstyled link">
+            <li><a href="#">Our Location</a></li>
+            <li><a href="#">The Hosts</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          
+          </ul>
+        </div>
+        <div class="col-md-3 mb-5 pr-md-5 contact-info">
+          <h3>Contact Info</h3>
+          <p><span class="d-block">Address:</span> <span> casablanca </span></p>
+          <p><span class="d-block">Phone:</span> <span> +212603980808</span></p>
+          <p><span class="d-block">Email:</span> <span> MaroCapsule@gmail.com</span></p>
+        </div>
+        <div class="col-md-3 mb-5">
+          <h3>Subscribe</h3>
+          <p>Sign up for our newsletter</p>
+          <form action="#" class="footer-newsletter">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your email...">
+              <button type="submit" class="btn"><span class="fa fa-paper-plane"></span></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row bordertop text-center pt-5">
+        <p class="col-md-12">&copy; Copyright 2020. All Rights Reserved. <br>  Developed by junior solution MaroCapsule<a
+            href=></a> <br> <a
+            href="">MaroCapsule</a></p>
+
+        <p class="col-md-12 social">
+          <a href="#"><span class="fa fa-facebook"></span></a>
+          <a href="#"><span class="fa fa-twitter"></span></a>
+          <a href="#"><span class="fa fa-instagram"></span></a>
+          <a href="#"><span class="fa fa-linkedin"></span></a>
+          <a href="#"><span class="fa fa-youtube"></span></a>
+
+        </p>
+      </div>
+    </div>
+  </footer>
+        <!-- Including Jquery -->
+        <script src="assets/js/vendor/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+        <script src="assets/js/vendor/jquery.cookie.js"></script>
+        <script src="assets/js/vendor/wow.min.js"></script>
+        <!-- Including Javascript -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/lazysizes.js"></script>
+        <script src="assets/js/main.js"></script>
+        <!--For Newsletter Popup-->
+
+        <!--End For Newsletter Popup-->
+    </div>
+</body>
+
+<!-- belle/home7-shoes.html   11 Nov 2019 12:30:10 GMT -->
+
+</html>
