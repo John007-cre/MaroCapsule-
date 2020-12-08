@@ -102,8 +102,7 @@
           n'hésitez pas à nous contactez en remplissant le formulaire ci-dessous. Votre confort est notre priorité !</p>
       </div>
       <br>
-      <form method="post" enctype="multipart/form-data"
-            onsubmit="return validateContactForm()" action="mail.php">
+      <form method="post" action="mail.php">
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
@@ -127,15 +126,7 @@
           <div class="form-group">
               <input type="submit"  name="send"  class="btnSubmit btnContact" value="Send" />
             
-            <div id="statusMessage"> 
-                        <?php
-                        if (! empty($message)) {
-                            ?>
-                            <p class='<?php echo $type; ?>Message'><?php echo $message; ?></p>
-                        <?php
-                        }
-                        ?>
-                    </div>
+        
         </div>
       </form>
     </div>
@@ -173,7 +164,7 @@
                   <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp (+91)-9624XXXXX
                   <br>
                   <br>
-                  <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp ttttttttttttt
+                  <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp (+91)-9624XXXXX
                 </p>
               </div>
             </div>
@@ -274,48 +265,6 @@
 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"
         type="text/javascript"></script>
-    <script type="text/javascript">
-        function validateContactForm() {
-            var valid = true;
-
-            $(".info").html("");
-            $(".input-field").css('border', '#e0dfdf 1px solid');
-            var userName = $("#userName").val();
-            var userEmail = $("#userEmail").val();
-            var phone = $("#userPhone").val();
-            var content = $("#content").val();
-            
-            if (userName == "") {
-                $("#userName-info").html("Required.");
-                $("#userName").css('border', '#e66262 1px solid');
-                valid = false;
-            }
-            if (userEmail == "") {
-                $("#userEmail-info").html("Required.");
-                $("#userEmail").css('border', '#e66262 1px solid');
-                valid = false;
-            }
-            if (!userEmail.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/))
-            {
-                $("#userEmail-info").html("Invalid Email Address.");
-                $("#userEmail").css('border', '#e66262 1px solid');
-                valid = false;
-            }
-
-            if (phone == "") {
-                $("#userPhone-info").html("Required.");
-                $("#userPhone").css('border', '#e66262 1px solid');
-                valid = false;
-            }
-            if (content == "") {
-                $("#userMessage-info").html("Required.");
-                $("#content").css('border', '#e66262 1px solid');
-                valid = false;
-            }
-            return valid;
-        }
-</script>
-
 
 </body>
 
