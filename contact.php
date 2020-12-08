@@ -37,22 +37,8 @@
 </head>
 
 <body>
-<?php
-if(!empty($_POST["send"])) {
-	$name = $_POST["userName"];
-	$email = $_POST["userEmail"];
-	$phone = $_POST["userPhone"];
-	$content = $_POST["content"];
 
-	$toEmail = "nadia.aitmouh@ensem.ac.ma";
-	$mailHeaders = "From: " . $name . "<". $email .">\r\n";
-	if(mail($toEmail, $phone, $content, $mailHeaders)) {
-	    $message = "Your contact information is received successfully.";
-	    $type = "success";
-	}
-}
-require_once "contact.php";
-?>
+
 
   <div class="js-animsition animsition" id="site-wrap" data-animsition-in-class="fade-in"
     data-animsition-out-class="fade-out">
@@ -117,7 +103,7 @@ require_once "contact.php";
       </div>
       <br>
       <form method="post" enctype="multipart/form-data"
-            onsubmit="return validateContactForm()" action="contact.php">
+            onsubmit="return validateContactForm()" action="mail.php">
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
