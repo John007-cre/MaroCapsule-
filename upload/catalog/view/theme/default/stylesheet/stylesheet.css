@@ -33,7 +33,7 @@ h6 {
 	font-size: 10.2px;
 }
 a {
-	color: #23a1d1;
+	color: #2b2b30;
 }
 a:hover {
 	text-decoration: none;
@@ -80,13 +80,28 @@ div.required .control-label:before {
 /* top */
 #top {
 	background-color: #EEEEEE;
-	border-bottom: 1px solid #e2e2e2;
-	padding: 4px 0px 3px 0;
-	margin: 0 0 20px 0;
-	min-height: 40px;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 9px 0px 3px 0;
+    margin: 0 0 20px 0;
+    min-height: 64px;
+    font-weight: 300;
+    font-family: 'Galada', cursive;
+    font-size: 17px;
 }
 #top .container {
 	padding: 0 20px;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}}
+nav.navbar ul li {
+    padding: 0 15px;
 }
 #top #form-currency .currency-select,
 #top #form-language .language-select {
@@ -95,21 +110,24 @@ div.required .control-label:before {
 #top #form-currency .currency-select:hover,
 #top #form-language .language-select:hover {
 	text-shadow: none;
-	color: #ffffff;
+	color: #333;
 	background-color: #229ac8;
 	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
 	background-repeat: repeat-x;
 }
 #top .btn-link, #top-links li, #top-links a {
-	color: #888;
-	text-shadow: 0 1px 0 #FFF;
+	color: rgb(255, 255, 255);
+	/*text-shadow: 0 1px 0 #FFF;*/
 	text-decoration: none;
+	font-weight: 300 !important;
+	margin-left: 8.9px;
 }
 #top .btn-link:hover, #top-links a:hover {
 	color: #444;
 }
 #top-links .dropdown-menu a {
-	text-shadow: none;
+    text-shadow: none;
+    color: #333 !important;
 }
 #top-links .dropdown-menu a:hover {
 	color: #FFF;
@@ -320,6 +338,7 @@ div.required .control-label:before {
 	margin: 0 0 20px 0;
 	padding: 8px 0;
 	border: 1px solid #ddd;
+	background-color: #f8ece9 !important;
 }
 .breadcrumb i {
 	font-size: 15px;
@@ -395,14 +414,14 @@ div.required .control-label:before {
 }
 .btn-primary {
 	color: #ffffff;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
-	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #ca6d53;
+    background-image: linear-gradient(to bottom, #ca6d53, #a94442);
+    background-repeat: repeat-x;
+    border-color: #ca6d53 #ca6d53 #a94442;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
-	background-color: #1f90bb;
+	background-color: #ca6d53;
 	background-position: 0 -15px;
 }
 .btn-warning {

@@ -23,10 +23,11 @@
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
 <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
-  <link rel="stylesheet" href="stylesheet/bootstrap.min.css">
   <link rel="stylesheet" href="stylesheet/bootstrap.css">
  <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Abril+Fatface:400,700" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Abril+Fatface:400,700" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="catalog/view/theme/default/stylesheet/animate.css">
   <link rel="stylesheet" href="catalog/view/theme/default/stylesheet/owl.carousel.min.css">
@@ -53,13 +54,22 @@
 {% endfor %}
 </head>
 <body>
-<nav id="top">
+
+<nav id="top" style="background-color: #594c4b;color: #b0a292;font-weight: 300;font-family: 'Galada', cursive;">
   <div class="container">{{ currency }}
     {{ language }}
     <div id="top-links" class="nav pull-right">
       <ul class="list-inline">
-        <li><a href="{{ contact }}"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md">{{ telephone }}</span></li>
-        <li class="dropdown"><a href="{{ account }}" title="{{ text_account }}" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">{{ text_account }}</span> <span class="caret"></span></a>
+      
+ 
+        <li class="nav-item active"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="MaroCapsule/about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="MaroCapsule/services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="MaroCapsule/upload">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="MaroCapsule">Contact us</a></li>
+        <li><a href="{{ shopping_cart }}" title="{{ text_shopping_cart }}"><i class="fa fa-shopping-cart"></i></a></li>
+        <li><a href="{{ wishlist }}" id="wishlist-total" title="{{ text_wishlist }}"><i class="fa fa-heart"></i> </a></li>
+        <li class="dropdown"><a href="{{ account }}" title="{{ text_account }}" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i><span class="caret"></span></a>
           <ul class="dropdown-menu dropdown-menu-right">
             {% if logged %}
             <li><a href="{{ account }}">{{ text_account }}</a></li>
@@ -73,10 +83,8 @@
             {% endif %}
           </ul>
         </li>
-        <li><a href="{{ wishlist }}" id="wishlist-total" title="{{ text_wishlist }}"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md">{{ text_wishlist }}</span></a></li>
-        <li><a href="{{ shopping_cart }}" title="{{ text_shopping_cart }}"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">{{ text_shopping_cart }}</span></a></li>
-        <li><a href="{{ checkout }}" title="{{ text_checkout }}"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">{{ text_checkout }}</span></a></li>
       </ul>
+      
     </div>
   </div>
 </nav>
