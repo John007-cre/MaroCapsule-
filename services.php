@@ -44,29 +44,29 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="show-menu">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="services.html">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Réalité virtuelle.html">RV</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="upload">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">Qui sommes-nous?</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item "><a class="nav-link" href="upload"><i class="fa fa-user"></i><span
-                                    class="caret"></span></a>
-                        </li>
-                    </ul>
+                <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.php">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Réalité virtuelle.php">RV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="upload">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.php">Qui sommes-nous?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.php">Contact</a>
+            </li>
+            <li class="nav-item "><a class="nav-link" href="upload"><i class="fa fa-user"></i><span
+                  class="caret"></span></a>
+            </li>
+          </ul>
                 </div>
             </div>
         </nav>

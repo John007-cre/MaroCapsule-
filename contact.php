@@ -57,22 +57,22 @@
         <div class="collapse navbar-collapse" id="show-menu">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
+              <a class="nav-link" href="services.php">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Réalité virtuelle.html">RV</a>
+              <a class="nav-link" href="Réalité virtuelle.php">RV</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="upload">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">Qui sommes-nous?</a>
+              <a class="nav-link" href="about.php">Qui sommes-nous?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.php">Contact</a>
             </li>
             <li class="nav-item "><a class="nav-link" href="upload"><i class="fa fa-user"></i><span
                   class="caret"></span></a>
@@ -165,11 +165,7 @@
                   <i class="fa fa-phone" aria-hidden="true"></i> +212603980808
                   <br>
                   <br>
-<<<<<<< HEAD:contact.php
                   <i class="fa fa-phone" aria-hidden="true"></i> +212603980808
-=======
-                  <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp (+91)-9624XXXXX
->>>>>>> a94b2d6cde030fc4ab0ee6946b46e314e02dfd9b:contact.html
                 </p>
               </div>
             </div>
