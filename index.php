@@ -61,7 +61,7 @@
               <a class="nav-link" href="Réalité virtuelle.php">RV</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="upload">Shop</a>
+              <a class="nav-link" href="upload/index.php">Shop</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.php">Qui sommes-nous?</a>
