@@ -37,6 +37,9 @@
 </head>
 
 <body>
+
+
+
   <div class="js-animsition animsition" id="site-wrap" data-animsition-in-class="fade-in"
     data-animsition-out-class="fade-out">
 
@@ -96,32 +99,35 @@
       <br>
       <div class="container">
         <br>
-        <p class="text-center w-75 m-auto">Si vous avez des questions, des réclamations ou des demandes spéciales
+        <p class="text-center w-75 m-auto">Si vous avez des questions, des réclamations ou des demandes spéciales,
           n'hésitez pas à nous contactez en remplissant le formulaire ci-dessous. Votre confort est notre priorité !</p>
       </div>
       <br>
-      <form method="post">
+      <form method="post" action="mail.php">
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+              <input type="text" id="userName-info" name="userName" class="form-control" placeholder="Your Name *" value="" />
             </div>
             <div class="form-group">
-              <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+              <input type="text" name="userEmail"   id="userEmail-info" class="form-control" placeholder="Your Email *" value="" />
             </div>
             <div class="form-group">
-              <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+              <input type="text" name="userPhone" id="userPhone-info" class="form-control" placeholder="Your Phone Number *" value="" />
             </div>
-            <div class="form-group">
-              <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
-            </div>
+           
           </div>
           <div class="col-md-6">
-            <div class="form-group">
-              <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
+            <div class="form-group"> <span id="userMessage-info"
+                    class="info"></span><br />
+              <textarea    name="content" id="content" class="form-control" placeholder="Your Message *"
                 style="width: 100%; height: 150px;"></textarea>
             </div>
           </div>
+          <div class="form-group">
+              <input type="submit"  name="send"  class="btnSubmit btnContact" value="Send" />
+            
+        
         </div>
       </form>
     </div>
@@ -159,7 +165,11 @@
                   <i class="fa fa-phone" aria-hidden="true"></i> +212603980808
                   <br>
                   <br>
+<<<<<<< HEAD:contact.php
                   <i class="fa fa-phone" aria-hidden="true"></i> +212603980808
+=======
+                  <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp (+91)-9624XXXXX
+>>>>>>> a94b2d6cde030fc4ab0ee6946b46e314e02dfd9b:contact.html
                 </p>
               </div>
             </div>
@@ -256,6 +266,10 @@
   <script src="js/animsition.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/main.js"></script>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"
+        type="text/javascript"></script>
+
 </body>
 
 </html>
