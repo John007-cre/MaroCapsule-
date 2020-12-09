@@ -6,9 +6,9 @@ define('HTTP_SERVER', 'https://marocapsule.herokuapp.com/upload/');
 define('HTTPS_SERVER', 'https://marocapsule.herokuapp.com/upload/');
 
 // DIR
-define('DIR_APPLICATION', 'https://marocapsule.herokuapp.com/upload/catalog/');
-define('DIR_SYSTEM', 'https://marocapsule.herokuapp.com/upload/system/');
-define('DIR_IMAGE', 'https://marocapsule.herokuapp.com/upload/image/');
+define('DIR_APPLICATION', 'marocapusle/upload/catalog/');
+define('DIR_SYSTEM', 'marocapusle/upload/system/');
+define('DIR_IMAGE', 'carocapusle/upload/image/');
 define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
