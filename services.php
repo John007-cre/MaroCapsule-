@@ -94,8 +94,8 @@
                         </figure>
                         <div class="fh5co-text">
                             <h2>Riads-Auberges-Hôtels</h2>
-                            <p>notre plateforme vous aide également à découvrir des Auberges, des Hôtels prestigieux et
-                                des meilleurs agences de voyage qui présentent un service de qualité à des prix
+                            <p>notre plateforme vous aide également à découvrir des Auberges, des Hôtels prestigieux qui
+                                présentent un service de qualité à des prix
                                 raisonnables.</p>
                             <p><span class="btn btn-primary">Submit</span></p>
                         </div>
@@ -110,8 +110,7 @@
                         <div class="fh5co-text">
                             <h2>Restaurants-Cafés-Snacks</h2>
                             <p>Personne ne vient au Maroc sans se restaurer ou séjourner dans un restaurant ou un Riad
-                                marocain, ceux proposés par MaroCapsule sont bien choisis, une décoration traditionnelle
-                                qui vous permettra de découvrir une cuisine marocaine moderne et traditionnelle.</p>
+                                marocain, ceux proposés par MaroCapsule sont bien choisis.</p>
                             <p><span class="btn btn-primary">Submit</span></p>
                         </div>
                     </a>
@@ -158,7 +157,7 @@
                             <h2>Agences ou centres de divertissement</h2>
                             <p>Réservez les meilleures attractions touristiques pour un voyage des sens au cœur du Maroc
                                 et découvrez des activités de divertissements incontournables : Buggy, Jet ski,
-                                parapente, quad et balades en dromadaires …</p>
+                                parapente …</p>
                             <p><span class="btn btn-primary">Submit</span></p>
                         </div>
                     </a>
@@ -174,8 +173,8 @@
                             <h2>Les guides</h2>
                             <p>Voici notre guide voyage au Maroc, précieux pour votre futur voyage . Vous trouverez ici
                                 votre guide , condensé de dizaines d’années d’expérience .A travers notre plateforme
-                                nous vous offrons une expertise de terrain et une connaissance du Maroc du nord au sud
-                                .Préparez donc votre voyage au Maroc avec toutes les infos pratiques !</p>
+                                nous vous offrons une connaissance du Maroc du nord au sud
+                                .</p>
                             <p><span class="btn btn-primary">Submit</span></p>
                         </div>
                     </a>

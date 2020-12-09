@@ -137,10 +137,10 @@
               <div class="info">
                 <h3 class="title">MAIL & WEBSITE</h3>
                 <p>
-                  <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp gondhiyahardik6610@gmail.com
+                  <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp MaroCapsule@gmail.com
                   <br>
                   <br>
-                  <i class="fa fa-globe" aria-hidden="true"></i> &nbsp www.hardikgondhiya.com
+                  <i class="fa fa-globe" aria-hidden="true"></i> &nbsp www.marocapsule.com
                 </p>
 
               </div>
@@ -152,14 +152,14 @@
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <div class="box">
             <div class="icon">
-              <div class="image"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+              <div class="image"><i class="fa fa-phone" aria-hidden="true"></i></div>
               <div class="info">
                 <h3 class="title">CONTACT</h3>
                 <p>
-                  <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp (+91)-9624XXXXX
+                  <i class="fa fa-phone" aria-hidden="true"></i> +212603980808
                   <br>
                   <br>
-                  <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp (+91)-756706XXXX
+                  <i class="fa fa-phone" aria-hidden="true"></i> +212603980808
                 </p>
               </div>
             </div>
@@ -174,8 +174,7 @@
               <div class="info">
                 <h3 class="title">ADDRESS</h3>
                 <p>
-                  <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp 15/3 Junction Plot
-                  "Shree Krishna Krupa", Rajkot - 360001.
+                  <i class="fa fa-map-marker" aria-hidden="true"></i> Casablanca
                 </p>
               </div>
             </div>
